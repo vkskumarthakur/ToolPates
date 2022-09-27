@@ -5,7 +5,7 @@ body {
 }
 
 .bg-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Assets/images/boy.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/boy.jpeg');
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .skills-bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Assets/images/skills-bg-img.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/skills-bg-img.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -29,14 +29,8 @@ body {
 .box-white {
     box-shadow: 0 0 5px white;
 }
-
-.bg-dark-green {
-    background-color: red;
-}
-
-.col1 {
-    display: grid;
-    place-items: center;
+.box-green {
+    box-shadow: 0 0 5px green;
 }
 
 .col1-img {
@@ -63,4 +57,11 @@ body {
 .card:hover .card-body a {
     display: inline;
     padding: 5px 20px;
+}
+.writeme-bg-img{
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/writeme-bg-img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }

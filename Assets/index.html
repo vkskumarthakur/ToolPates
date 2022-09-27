@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to portal</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="./images/vks logo.png" rel="icon">
   <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
 
 <body>
@@ -22,20 +23,21 @@
         <div class="nav">
           <ul class="nav text-white">
             <a href="#" class="text-white nav-link">
-              <li class="nav-item  mx-2 animated fadeInDownBig"><i class="fa fa-home" title="home"></i>Home</li>
+              <li class="nav-item  mx-2"><i class="fa fa-home" title="home"></i> Home</li>
             </a>
             <a href="#skills" class="text-white nav-link">
-              <li class="nav-item mx-2 animated fadeInUpBig"><i class="fa fa-code" title="skills"></i>Skills</li>
+              <li class="nav-item mx-2"><i class="fa fa-code" title="skills"></i> Skills</li>
             </a>
             <a href="#projects" class="text-white nav-link">
-              <li class="nav-item  mx-2 animated fadeInDownBig"><i class="fa fa-folder-open"
-                  title="projects"></i>Projects</li>
+              <li class="nav-item  mx-2"><i class="fa fa-folder-open" title="projects"></i>
+                Projects</li>
             </a>
-            <a href="#talk" class="text-white nav-link">
-              <li class="nav-item  mx-2 animated fadeInUpBig"><i class="fa fa-envelope" title="contact"></i>Contact</li>
+            <a href="#contact" class="text-white nav-link">
+              <li class="nav-item  mx-2"><i class="fa fa-envelope" title="contact"></i> Contact
+              </li>
             </a>
-            <a href="#about" class="text-white nav-link">
-              <li class="nav-item  mx-2 animated fadeInUpBig"><i class="fa fa-user-circle" title="about"></i>About</li>
+            <a href="#me" class="text-white nav-link">
+              <li class="nav-item  mx-2"><i class="fa fa-user-circle" title="about"></i> About</li>
             </a>
           </ul>
         </div>
@@ -48,7 +50,7 @@
               <h1 class="text-white text-uppercase">vikas kumar thakur</h1>
               <p class="text-white lead font-weight-bold">Web Designer</p>
               <hr class="w-100 text-white">
-              <a href="#" class="btn btn-success p-2">Discover Me</a>
+              <a href="#me" class="btn btn-success p-2">Discover Me</a>
             </div>
           </div>
           <div class="col-md-2"></div>
@@ -56,11 +58,11 @@
       </div>
     </div>
   </section>
-  <div class="container mt-5 align-items-center">
+  <div class="container mt-5 align-items-center" id="me">
     <p class="mt-5 display-5 font-weight-bold text-center">Introducing</p>
     <hr class="w-100 text-success">
     <div class="d-flex justify-content-center">
-      <img src="images/user-1.png" class="img-fluid w-25">
+      <img src="images/user-1.png" class="img-fluid w-25 box-green">
     </div>
     <p class="mt-3"><span class="text-success display-5 font-weight-bold">W</span>elcome to my portal! It's my pleasure
       you are here on my page. Let me tell you something about me, I've been in technology since age of 18, when I began
@@ -85,7 +87,7 @@
           <div class="progress-bar bg-secondary" style="width:90%; height:50px;">
           </div>
         </div>
-        <p class="font-weight-bold text-white mt-2">Bootstrap (Expert) <span class="text-success">90%</span></p>
+        <p class="font-weight-bold text-white mt-2">Bootstrap (Expert) <span class="text-success">100%</span></p>
         <div class="progress  w-100 box-white" style="height: 20px;">
           <div class="progress-bar bg-success" style="width:100%; height:50px;">
           </div>
@@ -100,7 +102,8 @@
           <div class="progress-bar bg-info" style="width:75%; height:50px;">
           </div>
         </div>
-        <p class="font-weight-bold text-white mt-2">Angular JS (Skillful) <span class="text-warning">90%</span></p>
+        <p class="font-weight-bold text-white mt-2">Angular JS (Skillful) <span
+            class="text-warning text-right">90%</span></p>
         <div class="progress  w-100 box-white" style="height: 20px;">
           <div class="progress-bar bg-warning" style="width:60%; height:50px;">
           </div>
@@ -110,7 +113,7 @@
           <div class="progress-bar bg-dark" style="width:60%; height:50px;">
           </div>
         </div>
-        <p class="font-weight-bold text-white mt-2">Java (Skillful) <span class="text-danger">90%</span></p>
+        <p class="font-weight-bold text-white mt-2">Java (Skillful) <span class="text-danger">50%</span></p>
         <div class="progress  w-100 box-white" style="height: 20px;">
           <div class="progress-bar bg-danger" style="width:50%; height:50px;">
           </div>
@@ -126,14 +129,14 @@
     <hr class="text-success">
     <div class="row mt-5">
       <div class="col-md-6">
-        <div class="card col1-img" style="background-image: url(/Assets/images/projects/project_1.png);">
+        <div class="card col1-img" style="background-image: url('./images/projects/project_1.png');">
           <div class="card-body col1-content d-flex justify-content-center align-items-center " style="height: 300px;">
             <a href="#" class="btn btn-success ">View</a>
           </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card col1-img" style="background-image: url(/Assets/images/projects/project_2.png);">
+        <div class="card col1-img" style="background-image: url('./images/projects/project_2.png');">
           <div class="card-body col1-content d-flex justify-content-center align-items-center" style="height: 300px;">
             <a href="#" class="btn btn-success ">View</a>
           </div>
@@ -142,24 +145,83 @@
     </div>
     <div class="row mt-3">
       <div class="col-md-6">
-        <div class="card col1-img" style="background-image: url(/Assets/images/projects/project_3.png);">
+        <div class="card col1-img" style="background-image: url('./images/projects/project_3.png');">
           <div class="card-body col1-content d-flex justify-content-center align-items-center" style="height: 300px;">
             <a href="#" class="btn btn-success ">View</a>
           </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card col1-img" style="background-image: url(/Assets/images/projects/project_4.png);">
+        <div class="card col1-img" style="background-image: url('./images/projects/project_4.png');">
           <div class="card-body col1-content d-flex justify-content-center align-items-center" style="height: 300px;">
             <a href="#" class="btn btn-success ">View</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"></script>
+  </div>
+  <div class="container-fluid writeme-bg-img" id="contact">
+    <div class="row mt-5 p-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 text-center">
+        <h3 class="text-white mt-5">Write me</h3>
+        <hr class="bg-success w-100">
+        <form class="form-group mt-5" action="">
+          <input type="text" placeholder="Name"
+            class="form-control border rounded  px-1 text-white bg-transparent p-2 mb-3 box-white">
+          <input type="email" placeholder="Enter Name"
+            class="form-control border rounded px-1 text-white bg-transparent p-2 mb-3 box-white">
+          <input type="text" placeholder="Enter Subject"
+            class="form-control border rounded  px-1 text-white bg-transparent p-2 mb-3 box-white">
+          <textarea name="" id="" cols="0" rows="5" placeholder="Write Message"
+            class="form-control border rounded  px-1 text-white bg-transparent p-2 mb-3 box-white"></textarea>
+          <button class="btn btn-success w-100 box-white">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3>Keep in touch</h3>
+        <hr class="bg-success w-50 ">
+        <p class="m-0">+91- 1234567890</p>
+        <p class="m-0">ramindia@gmail.com</p>
+        <p>House No- 137 Gadhwal Street <br>New Delhi 110092</p>
+        <span><i class="fab fa-facebook mx-2 text-success data-bs-toggle="tooltip" title="follow on facebook"></i>
+          <i class="fab fa-instagram mx-2 text-success data-bs-toggle="tooltip" title="follow on instagram"></i>
+          <i class="fab fa-twitter mx-2 text-success  data-bs-toggle="tooltip" title="follow on twitter"></i>
+          <i class="fab fa-linkedin mx-2 text-success data-bs-toggle="tooltip" title="follow on linkedin"></i>
+        </span>
+      </div>
+      <div class="col-md-4">
+        <h3>About</h3>
+        <hr class="bg-success w-50 ">
+        <p>Hands-on, successful Web Developer with decades of verifiable success leading teams in delivering appropriate
+          technology solutions for desktop and mobile products. Comprehensive knowledge of platform development and
+          web-based applications.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <footer class="mt-5">
+      <div class="row">
+        <div class="col-md-2 text-center">
+      <span><i class="fa fa-copyright"></i> Copyright to <a href="#" class="text-success">vikas</a> 2022-23</span>
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-2 text-right d-flex justify-content-end align-items-center">
+      <a href="#" class="btn btn-success"><i class="fa fa-angle-up"></i></a>
+    </div>
+    </div>
+    </footer>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
